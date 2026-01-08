@@ -130,10 +130,10 @@ def generate_email_html(full_name, recipient_email=None, subject=None, custom_ht
 
 <!-- Signature (Locked) -->
 <p style="margin-top:25px; font-size:14px; font-weight:bold;">
-  Giles Donaldson<br/>
+  Ishmael<br/>
   Sales Director<br/>
   3–4 March 2026 | London Olympia<br/>
-  <a href="mailto:Gilesdonaldson@smebusinessexpo.com" style="color:#D7262F; font-weight:bold;">Gilesdonaldson@smebusinessexpo.com</a><br/>
+  <a href="mailto:ishmael@smebusinessexpo.com" style="color:#D7262F; font-weight:bold;">ishmael@smebusinessexpo.com</a><br/>
   (+44) 2034517166
 </p>
 
@@ -212,7 +212,7 @@ st.title("📨 Automated Email Campaign Manager")
         #st.markdown(f"**{label}** | 👥 {c['total']} | ✅ {c['delivered']} | ❌ {c['failed']}")
 
 st.header("📤 Send Email Campaign")
-sender_email = st.text_input("Sender Email", value="gilesdonaldson@smebusinessexpo.com")
+sender_email = st.text_input("Sender Email", value="ishmael@smebusinessexpo.com")
 sender_password = st.text_input("Password", type="password")
 subject = st.text_input("Email Subject")
 default_html = """<p>Hi <strong>{name}</strong>,</p>

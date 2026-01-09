@@ -74,12 +74,17 @@ def generate_email_html(
                 </table>
 
                 <p style="margin-top:25px;font-weight:bold">
-                  Ishmael<br/>
-                  Sales Director<br/>
+                  Regards<br/>
+                  Customer Success Team<br/>
+                  SME Business Expo </br>
+                  (+44) 2034517166<br/>
                   3–4 March 2026 | London Olympia<br/>
+                  <br/>
+                  On Behalf of<br/>
+                  Ishmael<br/>
+                  Show Director<br/>
                   <a href="mailto:ishmael@smebusinessexpo.com"
                      style="color:#D7262F">ishmael@smebusinessexpo.com</a><br/>
-                  (+44) 2034517166
                 </p>
 
                 <p style="font-size:11px;color:#888;margin-top:30px">
